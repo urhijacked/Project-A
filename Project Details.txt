@@ -1,0 +1,80 @@
+Note: Wherever I use ##var## it means you have to use the same name for the variables in order for 
+much better syncing of branches of our coding...So that we can easily merge codes without any variable name errors.
+If you like to change any of them ...Create an Issue on github and let everyone know.
+If you like to add some more variable do the same as above.
+(I will be uploading a new file Var Project with the variables name and you modify the variable name and if you want to add
+then do mdify this file.(write variables along with its role in the prog)
+Constantly update this file with the name of the function you are defining in your program with its detail of its significance
+)
+
+
+The Project is about library management System.
+It includes File HAndling Techniques
+On the main menu There
+has to be 3 options 
+1.Book Issuing
+2.Book Deposit
+3.Administration menu.
+
+First about the 3 option
+Administration menu:
+It contains 10 options
+1. Creating Student Record
+2.Displaying all student record
+3.Display Specific Student record
+4.Modify Student Record
+5. Delete a student Record
+6. Create a book Record
+7.Dispaly all book
+8.Display specific book details
+9. Modify book details
+10. Delete A book details
+
+Focussing on 
+1. Create student record with Name, Roll no, Registration No, Branch, Hostel details
+##var## st_nam, st_rol, st_reg, st_bra, st_hos
+
+2. Displaying needs to be done in order like below:
+
+#############################Student's Record################################
+    Name       Roll no.   Registration No.   Branch      Hostel  	
+_____________ __________ _________________ __________ ____________
+ Danish	        1305456   46541321315646      CS&E         KP-6
+ Sanddy         1316315   54653215131553       EEE  	   KP-9
+
+I think you get the idea
+
+
+Note: It might be a good idea to provide the options in time of entering the branch and hostel
+So that someboday doesnt put Computer Science and Engineering and some does CS&E
+
+3. Displaying Specific record like above but with a single student.
+
+4. Modifying.....you can do it
+
+5. Deleting you can do it
+
+6. Create a Book record with Book id, Book name, author name, Book ISBN no.(Its an international reference no. given to
+every book), MRP
+##var## bk_id, bk_nam, bk_aut, bk_isb, bk_mrp
+
+7. 8. 9. 10. you know how to do it according to above....,,Go for your instincts
+
+
+
+
+
+Now coming back to the main menu
+1.Book Issue
+2.Book  Deposit
+3. Admin Menu
+
+Now for 
+1.Book Issue and 2.Book Deposit
+Its up to you how you do it
+Some important points:
+a> A student can only issue book if he is in the students record and the book should be too present
+in book record.
+b> A student can't issue more than one book
+c> A student has to pay fine for the book if he returns it after 15 days (You can include the date storing option in the book issuing)
+
