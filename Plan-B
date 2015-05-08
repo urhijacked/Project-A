@@ -1,0 +1,31 @@
+I am thinking to make a project on Banking system on Java(applet will be used for forms)
+it will be like online banking service provided to customers
+
+the main menu will be like:
+
+  
+1. open account(adding file)
+  in this the details of the customers will be stored in the form that will be processed and the account no and password for that account
+  will be given to the customer(which will be a random no.) user will create username with which he/she can login to his account using that password 
+
+  
+  2. profile.
+ this will store the details of the customer with his username and password also
+ once he logged in successfully 
+  the menu will be like:
+  1.change username
+   to change username
+  2.change password
+  3.change personal details(address, ph no etc)
+  4.personal banking
+  under this 
+   1.deposit money
+   2.withdraw money
+   3.money transfer(within this bank only)
+   4.balance enquiry
+   5.loan request(user will fill the form that will be stored for processing)
+   (any others)
+   
+   this is the basic idea that came into my mind. quite different than the basic file handling projects(adding, deleting, modifying etc)
+   any other ammendmets to this can be done to make it more better and efficient.
+   
